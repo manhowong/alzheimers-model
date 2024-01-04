@@ -10,7 +10,7 @@ This project aims to build a deep learning model to detect Alzheimer's disease w
 Currently, the model is trained without considering class imbalance. In addition, images were split for training, validation and testing randomly without considering subject identity. The former issue may lead to a biased model (see the section "Exploring the dataset") and the latter may impact the model's generalization performance due to data leakage (Yagis et al., 2021). These issues will need to be addressed in the future. In terms of performance metrics, other metrics besides accuracy will be needed to assess the model more comprehensively, such as the model's prediction precision and generalization performance.
 
 ## Data sourcing
-The training dataset was compiled by the Open Access Series of Imaging Studies (OASIS) (Marcus et al., 2007). The derived dataset was partially preprocessed by Ninad Aithal (Centre for Brain Research IISc - Bangalore, IN), including .nii to .jpg file conversion and patient classification (see this page for more information).
+The training dataset was compiled by the [Open Access Series of Imaging Studies (OASIS)](https://www.oasis-brains.org/) (Marcus et al., 2007). The derived dataset was partially preprocessed by Ninad Aithal (Centre for Brain Research IISc - Bangalore, IN), including .nii to .jpg file conversion and patient classification (see [this page](https://www.kaggle.com/datasets/ninadaithal/imagesoasis/data) for more information).
 
 ## Acknowledgments
 Data were provided by OASIS-1: Cross-Sectional: Principal Investigators: D. Marcus, R, Buckner, J, Csernansky J. Morris; P50 AG05681, P01 AG03991, P01 AG026276, R01 AG021910, P20 MH071616, U24 RR021382.
